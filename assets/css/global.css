@@ -1,0 +1,32 @@
+:root {
+    --color-header: #23282d;
+    --color-red: #ff2d2d;
+    --color-blue: #4db2ec;
+    --color-background: #fff;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 62.5%; */
+    /* Kích thước chữ */
+    line-height: 1rem;
+    /* Chiều cao của 1 dòng nội dung */
+    box-sizing: border-box;
+    /* font-size: 1rem; */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
